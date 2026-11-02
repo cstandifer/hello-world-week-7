@@ -41,6 +41,4 @@ The [game's own README](one-button-track/README.md) has the full rules and the s
 
 I built this with Claude (Claude Code). I chose the game, the events and the Los Angeles
 theme, then played each version and decided what to change: the long jump controls and
-runway, the false start rules, three attempts in field events, and decathlon scoring. Claude
-wrote the code and handled the git setup, and used simulated players to tune the rivals'
-difficulty.
+runway, the false start rules, three attempts in field events, and decathlon scoring.
