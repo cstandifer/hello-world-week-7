@@ -6,17 +6,17 @@ A one-button track & field meet set at a sunset stadium in Los Angeles, 2028. Bu
 
 ## The game I started from
 
-**Track & Field** (Konami, 1983). In the arcade version every event used three buttons: two RUN buttons that you mashed one after the other, and an ACTION button that jumped or threw. For jumps and throws you also held ACTION to set the angle.
+**Track & Field** (Konami, 1983). The arcade version used three buttons: two RUN buttons that you pressed one after the other, and an ACTION button. It had six events, and I kept five of them and dropped the high jump.
 
 ## What I automated
 
 | Event | Original controls | One-button version |
 |---|---|---|
 | 100m Dash | alternate two RUN buttons | **mash** SPACE. Each press adds speed, and you slow down when you stop |
-| Long Jump | RUN + RUN, hold ACTION for angle | **mash** to sprint down a single runway. Start **holding** inside the yellow zone before the board, and the athlete plants and freezes there. While you hold, the angle meter swings up and down, and you **release** while it's in the green band (near 45°) to jump. A press longer than a mash counts as the hold |
-| Javelin | RUN + RUN, hold ACTION for angle | the **run-up is automated**. **Tap 1** locks a swinging power meter. **Tap 2** throws at a swinging angle needle. Throw before the foul line |
+| Long Jump | RUN + RUN, hold to set the angle | **mash** to sprint down a single runway. Start **holding** inside the yellow zone before the board, and the athlete plants and freezes there. While you hold, the angle meter swings up and down, and you **release** while it's in the green band (near 45°) to jump. A press longer than a mash counts as the hold |
+| Javelin | RUN + RUN, timed ACTION press for the angle | the **run-up is automated**. **Tap 1** locks a swinging power meter. **Tap 2** throws at a swinging angle needle. Throw before the foul line |
 | 110m Hurdles | RUN + RUN, ACTION to jump | **hold** to run, **release** to jump, then press again to keep running. You hold instead of mashing, so releasing can't be confused with running |
-| Hammer Throw | ACTION to spin and to release | the **spinning is automated** and gets faster every turn. **Tap once** while the hammer is in the yellow zone. Waiting longer gives more speed but a harder timing window, and after 7 turns you fall |
+| Hammer Throw | a RUN press to start spinning, timed ACTION press for the angle | the **spinning is automated** and gets faster every turn. **Tap once** while the hammer is in the yellow zone. Waiting longer gives more speed but a harder timing window, and after 7 turns you fall |
 
 The menu works with the same button: **tap** to move to the next item and **hold** to choose it (a bar fills while you hold).
 
